@@ -8,7 +8,7 @@ match(TitleSlide) do |slides|
     conoha_image_url = "https://dzpp79ucibp5a.cloudfront.net/events_banners/12676_normal_1408435839_ConoHa_ghtt_header.jpg"
     open(conoha_image_url) do |image|
       File.open(conoha_image_file_name, "wb") do |output|
-        output.print(image.read)la
+        output.print(image.read)
       end
     end
   end
